@@ -6,23 +6,36 @@
     background-image: url(./imagens/Yelp.jpg);
     background-size: cover;
     height: 500px;
-    width:  100%;
 }
-.caixa-de-busca{
-    width: 400px;
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 24px 0;
+}
+.logo{
+    width: 10%;
+}
+.buscas{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width:35%;
+}
+.search{
+    width: 45%;
     height: 40px;
     padding: 5px 5px  ;
-    font-size: 10px;
     border-radius: 5px;
     background-color: white;
 }
-.caixa-de-busca h3{
+.search h3{
     font-size: 16px;
     padding: 10px 10px;
     color: gray;
 }
 .cidade{
-    width: 400px;
+    width: 45%;
     height: 40px;
     padding: 5px 5px  ;
     font-size: 10px;
@@ -35,47 +48,37 @@
     color: gray;
 }
 .botao-busca{
-    width: 50px;
-    height: 45px;
+    width: 10%;
+    height: 40px;
+    padding: 5px 5px  ;
     background-color: red;
+    text-align: center;
 }
-
-.search / nav / header{
-    background-color: white;
-    width: 500px; #sempre usar o width na div, pq é a vertical, horizontal é padrao, div pega tudo
+.botao-busca img {
+    width: 44px;
+    height: 44px;
 }
-
-.header{
-    background: antiquewhite;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 16px 0;
-    
-}
-
 .nav{
-    background-color: yellow;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
-
-.nav2{
-    display: flex;
-    align-items: center;
-}   
-
-a{
+.nav a{
     color: white;
     font-weight: bold;
     font-size: 1.em;
     padding: 5px 25px;
 }
+.cadastro a{
+    
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}   
 
-a:hover{ 
+.nav a:hover{ 
     background-color: wheat;
     opacity: 0.3;
     color: green;
