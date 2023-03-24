@@ -5,7 +5,7 @@
 .fundo{
     background-image: url(./imagens/Yelp.jpg);
     background-size: cover;
-    height: 500px;
+    height: 520px;
 }
 .header{
     display: flex;
@@ -14,20 +14,22 @@
     padding: 24px 0;
 }
 .logo{
-    width: 10%;
+    cursor: pointer;
 }
 .buscas{
     display: flex;
     align-items: center;
     flex-direction: row;
+    padding: 0px 16px;
     width:35%;
 }
 .search{
     width: 45%;
     height: 40px;
     padding: 5px 5px  ;
-    border-radius: 5px;
+    border-radius: 5px 0 0 5px;
     background-color: white;
+    cursor:text;
 }
 .search h3{
     font-size: 16px;
@@ -38,48 +40,74 @@
     width: 45%;
     height: 40px;
     padding: 5px 5px  ;
-    font-size: 10px;
-    border-radius: 5px;
     background-color: white;
+    cursor:text;
 }
 .cidade h3{
     font-size: 16px;
     padding: 10px 10px;
     color: gray;
 }
-.botao-busca{
-    width: 10%;
-    height: 40px;
-    padding: 5px 5px  ;
-    background-color: red;
-    text-align: center;
-}
 .botao-busca img {
-    width: 44px;
-    height: 44px;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
 }
 .nav{
+
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .nav a{
+    border-radius: 5px;
     color: white;
     font-weight: bold;
-    font-size: 1.em;
-    padding: 5px 25px;
+    font-size: 14;
+    padding: 8px 16px;
+    text-decoration: none;
+    outline: none;
 }
-.cadastro a{
-    
+#acessar{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-left: 12px;
+    outline: none;
+    cursor: pointer;
+}
+#cadastrar{
+    background-color: rgb(236, 16, 16);
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-left: 12px;
+    outline: none;
+    cursor: pointer;
+}
+.nav a:hover{ 
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+.nav #cadastrar:hover{ 
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+}
+.nav #acessar:hover{ 
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
 }
 .nav2{
     display: flex;
     align-items: center;
-}   
-
-.nav a:hover{ 
-    background-color: wheat;
-    opacity: 0.3;
-    color: green;
 }
