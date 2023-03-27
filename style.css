@@ -134,10 +134,153 @@
 }
 .nav3 h1{
     font-weight: bold;
-    padding: 56px 38% ;
+    padding: 3% 35%;
 }
 .container{
+    height: 500px;
     display: flex;
     align-items: center;
+    padding: 0 8%;
     justify-content: space-between;
+}
+.bloco1 {
+    background-color: white;
+    height: 90%;
+    width: 30%;
+    border: 1px solid rgb(189, 178, 178);
+}
+.perfil{
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+}
+.bloco1 a{
+    padding: 16px 24px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(8, 115, 119);
+    font-weight: bold;
+}
+.bloco1 a:hover{
+    text-decoration: underline;
+}
+.perfil p {
+    margin-left: 10px;
+}
+.perfil h3{
+    margin-left: 10px;
+}
+.imagemb1{
+    height: 60%;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url(./imagens/ideia.jpg);
+    margin-top: 10px;
+}
+.perfil1{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+} 
+.likeimage img{
+    height: 20px;
+    margin-left: 20px;
+
+}
+.perfil1 p{
+    margin-left: 10px;
+}
+.bloco2 {
+    background-color: white;
+    height: 90%;
+    width: 30%;
+    border: 1px solid rgb(189, 178, 178);
+}
+.perfil2{
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+}
+.bloco2 a{
+    padding: 16px 24px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(8, 115, 119);
+    font-weight: bold;
+}
+.bloco2 a:hover{
+    text-decoration: underline;
+}
+.perfil2 p {
+    margin-left: 10px;
+}
+.perfil2 h3{
+    margin-left: 10px;
+}
+.imagemb2{
+    height: 60%;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url(./imagens/ideia.jpg);
+    margin-top: 10px;
+}
+.perfil22{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+} 
+.likeimage2 img{
+    height: 20px;
+    margin-left: 20px;
+
+}
+.perfil22 p{
+    margin-left: 10px;
+}
+.bloco3 {
+    background-color: white;
+    height: 90%;
+    width: 30%;
+    border: 1px solid rgb(189, 178, 178);
+}
+.perfil3{
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+}
+.bloco3 a{
+    padding: 16px 24px;
+    outline: none;
+    text-decoration: none;
+    color: rgb(8, 115, 119);
+    font-weight: bold;
+}
+.bloco3 a:hover{
+    text-decoration: underline;
+}
+.perfil3 p {
+    margin-left: 10px;
+}
+.perfil3 h3{
+    margin-left: 10px;
+}
+.imagemb3{
+    height: 60%;
+    background-color: aqua;
+    background-size: cover;
+    background-image: url(./imagens/Coroa.jpg);
+    margin-top: 10px;
+}
+.perfil33{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+} 
+.likeimage3 img{
+    height: 20px;
+    margin-left: 20px;
+
+}
+.perfil33 p{
+    margin-left: 10px;
 }
