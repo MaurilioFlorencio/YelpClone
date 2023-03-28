@@ -170,12 +170,14 @@
 .perfil h3{
     margin-left: 10px;
 }
-.imagemb1{
+.imagem1{
+    width: 100%;
     height: 60%;
-    background-color: aqua;
-    background-size: cover;
-    background-image: url(./imagens/ideia.jpg);
     margin-top: 10px;
+}
+.imagem1 img{
+    width: 100%;
+    height: 100%;
 }
 .perfil1{
     display: flex;
@@ -185,7 +187,6 @@
 .likeimage img{
     height: 20px;
     margin-left: 20px;
-
 }
 .perfil1 p{
     margin-left: 10px;
@@ -217,12 +218,14 @@
 .perfil2 h3{
     margin-left: 10px;
 }
-.imagemb2{
+.imagem2{
+    width: 100%;
     height: 60%;
-    background-color: aqua;
-    background-size: cover;
-    background-image: url(./imagens/ideia.jpg);
     margin-top: 10px;
+}
+.imagem2 img{
+    width: 100%;
+    height: 100%;
 }
 .perfil22{
     display: flex;
@@ -264,12 +267,14 @@
 .perfil3 h3{
     margin-left: 10px;
 }
-.imagemb3{
+.imagem3{
+    width: 100%;
     height: 60%;
-    background-color: aqua;
-    background-size: cover;
-    background-image: url(./imagens/Coroa.jpg);
     margin-top: 10px;
+}
+.imagem3 img{
+    width: 100%;
+    height: 100%;
 }
 .perfil33{
     display: flex;
